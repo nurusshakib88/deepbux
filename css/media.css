@@ -31,6 +31,12 @@
 .flash-sale p, .weekly-newsletter p, .website-rating p {
     font-size: 8px;
 }
+
+.flash-sale::after, .weekly-newsletter::after, .website-rating::after {
+    top: 2px;
+    right: 6px;
+    font-size: 12px;
+}
 .weekly-newsletter {
     width: 166px;
     right: 0;
