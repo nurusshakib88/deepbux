@@ -156,6 +156,14 @@ body {
     margin: 0;
     padding: 0;   
 }
+.flash-sale::after, .weekly-newsletter::after, .website-rating::after {
+    content: 'x';
+    position: absolute;
+    color: #ccc;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+}
 
 
 .weekly-newsletter {
