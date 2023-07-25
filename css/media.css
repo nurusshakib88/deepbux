@@ -1,0 +1,284 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/* hero */
+.hero-heading {
+    font-size: 28px;
+}
+.hero-content {
+    padding: 60px 0 40px;
+}
+.hero-text {
+    padding: 18px 20px;
+    margin: 80px auto 0;
+    width: 84%;
+    font-size: 14px;
+}
+.hero-text::before {
+    font-size: 28px;
+    padding: 10px;
+    top: -48px;
+    left: -33px;
+}
+.flash-sale {
+    right: 14%;
+    width: 206px;
+    top: 50px;
+}
+.flash-sale h3, .website-rating h3, .weekly-newsletter h2 {
+    font-size: 10px;
+}
+.flash-sale p, .weekly-newsletter p, .website-rating p {
+    font-size: 8px;
+}
+.weekly-newsletter {
+    width: 166px;
+    right: 0;
+    padding: 10px;    
+    top: 52%;
+    transform: translateY(-52%);
+}
+.newsletter-input input {
+    font-size: 8px;
+}
+.website-rating {
+    width: 161px;
+    right: 20%;
+}
+.rating ul li {
+    width: 15px;
+    margin: 5px -6px 0px;
+    font-size: 10px;
+}
+.rating ul {
+    margin-bottom: 5px;
+}
+.hero-img::before {
+    top: -46px;
+    left: -66px;
+    width: 169px;
+    height: 169px;
+}
+.hero-img::after {
+    right: 128px;
+    width: 200px;
+
+}
+.hero-img img {
+    width: 263px;
+}
+/* hero end */
+
+/* conversion */
+.conversion-rate h1 {
+    font-size: 32px;
+}
+.conversion-rate p {
+    font-size: 14px;
+}
+.conversion-rate span {
+    font-size: 16px;
+}
+.sign-up-free-btn {
+    font-size: 14px;
+    width: 100%;
+}
+
+.conversion-details {
+    margin-top: 50px;
+}
+.conversion-details .row:not(:last-child) {
+    margin-bottom: 12px;
+}
+.details h3 {
+    font-size: 20px;
+}
+.details p {
+    font-size: 14px;
+}
+.number {
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    padding-top: 8px;
+}
+.conversion-details::before {
+    width: 3px;
+    height: 60%;
+    top: 45px;
+    left: 23px;
+}
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* hero */
+.hero-heading {
+    font-size: 30px;
+}
+.hero-text {
+    padding: 18px 20px;
+    margin: 100px auto 0;
+    width: 365px;
+}
+.hero-text::before {
+    font-size: 30px;
+    padding: 10px;
+    top: -48px;
+    left: -78px;
+}
+.hero-img {
+    text-align: center;
+}
+.flash-sale {
+    right: 60px;
+}
+.weekly-newsletter {
+    right: -10px;;
+}
+.website-rating {
+    right: 30px;
+}
+.hero-img::before {
+    top: -80px;
+    left: -15px;
+}
+.hero-img::after {
+    right: 62px;
+}
+/* hero end */
+
+/* conversion */
+.conversion-rate h1 {
+    font-size: 30px;
+}
+.conversion-details {
+    margin-top: 50px;
+}
+.conversion-details .row:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* hero */
+.hero-heading {
+    font-size: 35px;
+}
+.hero-text {
+    padding: 20px 25px;
+    margin: 100px auto 0;
+}
+.hero-text::before {
+    font-size: 35px;
+    padding: 10px;
+    top: -55px;
+    left: -90px;
+}
+.hero-img {
+    text-align: center;
+}
+.flash-sale {
+    right: 60px;
+}
+.weekly-newsletter {
+    right: -18px;;
+}
+.website-rating {
+    right: 30px;
+}
+.hero-img::before {
+    top: -80px;
+    left: 73px;
+}
+.hero-img::after {
+    right: 160px;
+}
+/* hero end */
+
+/* conversion */
+.conversion-rate h1 {
+    font-size: 35px;
+}
+.conversion-details {
+    margin-top: 50px;
+}
+.conversion-details .row:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+/* hero */
+.hero-content {
+    padding: 80px 0;
+}
+.hero-heading {
+    font-size: 35px;
+}
+.hero-text {
+    padding: 10px 26px;
+    width: 350px;
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+.hero-text::before {
+    font-size: 35px;
+    padding: 10px;
+    top: -55px;
+    left: -90px;
+}
+.hero-img::before {
+    width: 200px;
+    height: 200px;
+    top: -28px;
+    left: -65px;
+}
+.flash-sale {
+    right: 45px;;
+}
+.weekly-newsletter {
+    right: -25px;
+}
+.website-rating {
+    right: 0;
+}
+.hero-img::after {
+    right: 85px;
+}
+/* hero end */
+
+/* conversion */
+.conversion-rate h1 {
+    font-size: 35px;
+}
+.conversion-details .row:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
